@@ -1,0 +1,95 @@
+.container{
+    border:2px solid gray;
+  
+}
+.flexbox-item{
+  background-color: burlywood;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid black;
+}
+.item-1{
+    flex-shrink: 4;
+    flex-grow: 1;
+    
+}
+.item-2{
+    flex-shrink: 4;
+    flex-grow: 1;
+}
+.item-3{
+    flex-shrink: 4;
+    flex-grow: 1;
+}
+.c1 {
+    width: 25%;
+    height: 410px;
+    background-color: yellow;
+    padding: 5px;
+    margin:5px;
+}
+.c2{
+    width: 98%;
+    background-color: yellow;
+    height: 200px;
+    margin: 5px;
+}
+.c3,.c4 {
+    background-color: yellow;
+    width: 50%;
+    height: 200px;
+    margin: 5px;
+}
+.container-1234{
+    display: flex;
+    
+}
+.container-34{
+    display: flex;
+   
+}
+.contanier-234{
+    
+    width: 50%;
+}
+
+.c5,.c6{
+background-color: green;
+
+height: 200px;
+padding: 25px;
+margin: 5px;
+
+
+}
+.c7{
+    background-color: green;
+    width: 35%;
+    height: 460px;
+    margin: 5px;
+}
+.c8{
+    background-color: red;
+width: 200px;
+height: 200px;
+padding: 28px;
+}
+.contanier-567{
+    border: 5px solid red;
+    display: flex;
+    
+}
+.contanier-56{
+    width: 65%;
+
+}
+
+/* media ekran ayarlama*/
+@media screen and (max-width: 600px){
+    .container-1234{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
